@@ -7,6 +7,13 @@
   pointer-events: none;
 }
 
+
+.DoughnutChart {
+  height: 900px;
+  width: 900px;
+  background-color: #282c34;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
