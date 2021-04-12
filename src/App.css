@@ -7,11 +7,15 @@
   pointer-events: none;
 }
 
+.dynamic-network-site{
+  background-color: #282c34;
+}
+
 
 .DoughnutChart {
   height: 900px;
   width: 900px;
-  background-color: #282c34;
+  background-color: transparent;
 }
 
 @media (prefers-reduced-motion: no-preference) {
