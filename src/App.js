@@ -1,13 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import DoughnutChart from "./components/Tokenomics/DoughnutChart";
 import Tokenomics from "./components/Tokenomics/Tokenomics";
 import React from 'react';
 import HeroSection from "./components/HeroSection";
-import StarfieldAnimation from "react-starfield-animation";
-import ParticleAnimation from 'react-particle-animation'
-import Particles from 'react-particles-js';
-
 
 function saveAsDoughnut(){
 
