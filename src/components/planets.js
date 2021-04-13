@@ -1,3 +1,5 @@
+import React, {Component} from "react";
+
 var sun = new Image();
 var moon = new Image();
 var earth = new Image();
@@ -10,7 +12,7 @@ function init() {
 }
 
 function draw() {
- /*   var ctx = document.getElementById('canvas').getContext('2d');
+    var ctx = document.getElementById('canvas').getContext('2d');
 
     ctx.globalCompositeOperation = 'destination-over';
     ctx.clearRect(0, 0, 800, 800); // clear canvas
@@ -45,6 +47,16 @@ function draw() {
     ctx.drawImage(sun, 0, 0, 300, 300);
 
     window.requestAnimationFrame(draw);
-}*/}
+}
 
 init();
+
+class planets extends Component {
+
+    render () {
+        return (
+            init(),
+            draw()
+        )
+    }
+} export default planets;

@@ -4,7 +4,7 @@ import Particles from "react-particles-js";
 
 
 
-class Tokenomics extends Component {
+class ParticleBackground extends Component {
 
     render () {
         return (
@@ -24,4 +24,4 @@ class Tokenomics extends Component {
             />
         )
     }
-} export default Tokenomics;
+} export default ParticleBackground;

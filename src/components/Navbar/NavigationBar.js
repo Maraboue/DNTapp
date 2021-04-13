@@ -6,7 +6,7 @@ class NavigationBar extends React.Component{
     render() {
         return(
             <nav className="NavigationBarItems">
-                <h1 className="NavigationBar-Logo">Dynamic Network</h1>
+                <h1 className="NavigationBar-Logo">Dynamic Network ʕ•ᴥ•ʔ </h1>
                 <div className="Menu">
 
                 </div>

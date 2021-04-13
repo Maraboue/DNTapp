@@ -22,7 +22,7 @@
 .saveChart {
 
   background-color: #163968;
-  color: black;
+  color: #61dafb;
   font-size: large;
   border-radius: 800px;
 }
@@ -31,9 +31,9 @@
 .TokenInfo {
 
   color: #61dafb;
-  width: 100%;
-  padding-top: 350px ;
-  padding-right: 200px;
+  width: 400px;
+  padding-top: 350px;
+  padding-left: 200px;
   position: absolute;
   top: 500px;
   left: 0;
@@ -42,16 +42,23 @@
 }
 
 .DoughnutChart {
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   padding-top: 350px;
-  padding-bottom: 10px;
+  padding-bottom: 800px;
+  padding-left: 1200px;
   position: absolute;
   top: 500px;
   left: 0;
   right: 500px;
   bottom: 0;
   transition: background-color 0.5s;
+}
+
+.planets {
+
+  padding-bottom: 60px;
+  height: 100%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
