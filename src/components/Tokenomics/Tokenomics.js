@@ -1,5 +1,5 @@
 import React, {Component}  from 'react'
-import ParticleBackground from "./ParticleBackground";
+import ParticleBackground from "../ParticleBackground";
 import DoughnutChart from "./DoughnutChart";
 import './Tokenomics.css'
 
@@ -81,8 +81,9 @@ class Tokenomics extends Component {
 
          <body>
          <div id="TokenomicsHeader" className="TokenomicsHeader">
-             <h1>Tokenomics</h1>
+                 <h1 className="gradient-text">Tokenomics</h1>
          </div>
+
          <div id="tokenomics" className="tokennomics">
              <ParticleBackground/>
 

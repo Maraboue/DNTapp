@@ -1,10 +1,10 @@
 .NavigationBarItems{
     background: linear-gradient(90deg, rgb(113, 206, 235) 0%, rgba(106, 139, 246, 96) 100%);
-    height: 50px;
+    height: 65px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     width: 100%;
 }
 

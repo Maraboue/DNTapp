@@ -1,7 +1,7 @@
 import React, {Component, useEffect,useRef} from 'react';
 import VanillaTilt from 'vanilla-tilt';
 import './Card.css'
-import ParticleBackground from "../Tokenomics/ParticleBackground";
+import ParticleBackground from "../ParticleBackground";
 
 function Tilt(props) {
     const { options, ...rest } = props;
@@ -21,7 +21,7 @@ class Cards extends React.Component {
 
             <body>
             <div id="teamHeader" className="teamHeader">
-                <h1>Dynamic Network Team</h1>
+                <h1 class="gradient-text">Dynamic Network Team</h1>
             </div>
 
             <div id="cardContainer" className="cardContainer">
