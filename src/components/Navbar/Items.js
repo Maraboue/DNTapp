@@ -15,7 +15,13 @@ export const items = [
         name: 'nav-links'
     },
     {
-        title: 'Repo',
+        title: 'Tools',
+        url: '#',
+        name: 'nav-links'
+    }
+    ,
+    {
+        title: 'About',
         url: '#',
         name: 'nav-links'
     }

@@ -1,0 +1,80 @@
+.infoContainer{
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+
+}
+
+.TokenInfo {
+
+    height: 300px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-bottom: 50px;
+    color: #61dafb;
+    position:absolute;
+    margin-top: 800px;
+    margin-left: 200px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    overflow: hidden;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+}
+
+.TokenInfo h1 {
+    padding-top: 20px;
+    margin-top: -400px;
+    font-size: 1.8em;
+    z-index: -1;
+}
+
+.TokenInfo p {
+    padding-top: 100px;
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateY(100px);
+}
+
+.TokenInfo p:hover {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.TokenInfo a {
+
+    position: absolute;
+    display: inline-block;
+    padding: 8px 20px;
+    background: #61dafb;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateY(100px);
+}
+
+.DoughnutChart {
+    position: absolute;
+    bottom: 0;
+    top: 300px;
+    background: transparent;
+    padding-top: 900px;
+}
+
+.Tokenomics {
+    background-color: transparent;
+    position: relative;
+}
+
+.TokenomicsHeader {
+    font-size: 1.8em;
+    color: #61dafb;
+    width: 100%;
+}

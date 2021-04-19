@@ -56,7 +56,7 @@ class planets extends Component {
     render () {
         return (
             init(),
-            draw()
+                draw()
         )
     }
 } export default planets;
