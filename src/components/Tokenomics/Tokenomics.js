@@ -2,6 +2,7 @@ import React, {Component}  from 'react'
 import ParticleBackground from "../ParticleBackground";
 import DoughnutChart from "./DoughnutChart";
 import './Tokenomics.css'
+import {Link} from 'react-scroll';
 
 function saveAsDoughnut(){
 
@@ -78,7 +79,7 @@ class Tokenomics extends Component {
 
     render () {
         return (
-
+        <section className="tokenomics_section" id="tokenomics">
          <body>
          <div id="TokenomicsHeader" className="TokenomicsHeader">
                  <h1 className="gradient-text">Tokenomics</h1>
@@ -114,7 +115,7 @@ class Tokenomics extends Component {
         </div>
          </div>
          </body>
-
+        </section>
         )
     }
 } export default  Tokenomics ;

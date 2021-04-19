@@ -12,29 +12,30 @@ import Tokenomics from "./components/Tokenomics/Tokenomics";
         render() {
 
             return (
-                <div className="App">
-                    <div className="dynamic-network-site">
-                        <NavigationBar/>
+                <section className="DNT" id="DNT">
+                    <div className="App">
+                        <div className="dynamic-network-site">
+                            <NavigationBar/>
+                        </div>
+
+                        <body>
+
+                            <div id="HeroSection" className="HeroSection">
+                            <HeroSection/>
+                            </div>
+
+                            <div id="Tokenomics-info" className="Tokenomics-info">
+                                <Tokenomics/>
+                            </div>
+
+                            <div className="team-cards">
+                             <Cards/>
+                            </div>
+
+                        </body>
+
                     </div>
-
-                    <body>
-
-                        <div id="HeroSection" className="HeroSection">
-                        <HeroSection/>
-                        </div>
-
-                        <div id="Tokenomics-info" className="Tokenomics-info">
-                            <Tokenomics/>
-                        </div>
-
-                        <div className="team-cards">
-                         <Cards/>
-                        </div>
-
-                    </body>
-
-                </div>
-
+                </section>
             );
         }
     }

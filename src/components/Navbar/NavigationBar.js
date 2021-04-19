@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import { items } from "./Items";
-import './NavigationBar.css';
+import style from './NavigationBar.css';
+import {Link} from 'react-scroll';
+import { useEffect } from 'react';
 
 class NavigationBar extends React.Component{
     render() {
         return(
             <nav className="NavigationBarItems">
-                <h1 className="NavigationBar-Logo">Dynamic Network ʕ•ᴥ•ʔ </h1>
+                <Link className="NavigationBar-Logo" to="DNT" smooth={true} duration={1000}>Dynamic Network ʕ•ᴥ•ʔ </Link>
                 <div className="Menu">
 
                 </div>
@@ -14,9 +16,9 @@ class NavigationBar extends React.Component{
                     {items.map((item, index) => {
                         return(
                             <li key={index}>
-                                <a className={item.name} href={item.url}>
+                                <Link className={item.name} to={item.url} smooth={true} duration={1000}>
                                     {item.title}
-                                </a>
+                                </Link>
                             </li>
                         )
                     })}

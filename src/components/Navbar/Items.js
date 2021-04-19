@@ -1,7 +1,7 @@
 export const items = [
     {
         title: 'Tokenomics',
-        url: '#',
+        url: 'tokenomics',
         name: 'nav-links'
     },
     {
@@ -11,7 +11,7 @@ export const items = [
     },
     {
         title: 'Team',
-        url: '#',
+        url: 'team',
         name: 'nav-links'
     },
     {
