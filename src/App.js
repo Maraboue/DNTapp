@@ -1,16 +1,22 @@
 import './App.css';
 
-import React, { useEffect, useRef } from 'react';
+import React, {Component, useEffect, useRef} from 'react';
 import HeroSection from "./components/HeroSection";
 import NavigationBar from "./components/Navbar/NavigationBar";
 import Cards from './components/Team/Cards';
 import Tokenomics from "./components/Tokenomics/Tokenomics";
+import About from "./components/About/About";
+import RoadMap from "./components/RoadMap/RoadMap";
+import Footer from "./components/Footer/Footer";
+import DoughnutChart from "./components/Tokenomics/DoughnutChart";
+import Header from "./components/Header/Header";
+
+
+
 
     class App extends React.Component {
 
-
         render() {
-
             return (
                 <section className="DNT" id="DNT">
                     <div className="App">
@@ -20,20 +26,31 @@ import Tokenomics from "./components/Tokenomics/Tokenomics";
 
                         <body>
 
+                        <div id="Header" className="HeaderSection">
+                            <Header/>
+                        </div>
                             <div id="HeroSection" className="HeroSection">
-                            <HeroSection/>
+                                    <HeroSection/>
                             </div>
 
                             <div id="Tokenomics-info" className="Tokenomics-info">
                                 <Tokenomics/>
                             </div>
-
+                            <div className="AboutSection">
+                                <About/>
+                            </div>
                             <div className="team-cards">
-                             <Cards/>
+                                <Cards/>
                             </div>
 
-                        </body>
+                            <div className="RoadMap">
+                                <RoadMap/>
+                            </div>
 
+                            <div className="Footer">
+                                <Footer/>
+                            </div>
+                        </body>
                     </div>
                 </section>
             );

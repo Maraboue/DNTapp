@@ -12,7 +12,7 @@ class ParticleBackground extends Component {
                             value: 200,
                             density: {
                                 enable: true,
-                                value_area: 5000,
+                                value_area: 7500,
                             }
 
                         },

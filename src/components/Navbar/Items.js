@@ -5,8 +5,8 @@ export const items = [
         name: 'nav-links'
     },
     {
-        title: 'Docs',
-        url: '#',
+        title: 'About',
+        url: 'about',
         name: 'nav-links'
     },
     {
@@ -14,14 +14,14 @@ export const items = [
         url: 'team',
         name: 'nav-links'
     },
+
     {
-        title: 'Tools',
-        url: '#',
+        title: 'Road Map',
+        url: 'roadmap',
         name: 'nav-links'
-    }
-    ,
+    },
     {
-        title: 'About',
+        title: 'Docs',
         url: '#',
         name: 'nav-links'
     }

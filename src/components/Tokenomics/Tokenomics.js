@@ -2,7 +2,7 @@ import React, {Component}  from 'react'
 import ParticleBackground from "../ParticleBackground";
 import DoughnutChart from "./DoughnutChart";
 import './Tokenomics.css'
-import {Link} from 'react-scroll';
+
 
 function saveAsDoughnut(){
 
@@ -81,39 +81,48 @@ class Tokenomics extends Component {
         return (
         <section className="tokenomics_section" id="tokenomics">
          <body>
-         <div id="TokenomicsHeader" className="TokenomicsHeader">
-                 <h1 className="gradient-text">Tokenomics</h1>
-         </div>
 
          <div id="tokenomics" className="tokennomics">
-             <ParticleBackground/>
+
+             <div id="TokenomicsHeader" className="TokenomicsHeader">
+                 <h1 className="gradient-text">Tokenomics</h1>
+             </div>
+
+
 
         <div id="TokenInfo" className="TokenInfo">
-            <h1>HELLO TOKEN!</h1>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
-                making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
-                and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident,
-                sometimes on purpose (injected humour and the like).The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
-                making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
-                and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident,
-                sometimes on purpose (injected humour and the like).</p>
+            <h1>Why Dynamic Network Token?</h1>
+            <br/>
+            <h2>Burning & Minting</h2>
+            <p>
+                In accordance with the quantitative theory of money, we have implemented
+                burning and minting for each transaction. This makes it possible to control
+                the volatility in a better way, making the Dynamic Network Token less volatile. The ratio
+                implemented for the burning and minting is close to 2:1 in favor for the burning, thus creating
+                a more deflationary token.
+            </p>
+            <a href ="#">Read More</a>
+            <h2>Network Based Burning</h2>
+            <p>
+                We believe that a good token is backed by a strong network. Therefore, we have implemented Network Based
+                Burning. This means as the Dynamic Network grows, burns will occur based on users in the network.
+            </p>
+            <a href ="#">Read More</a>
+            <h2>Less Volatility</h2>
+            <p>
+                Before launching the Dynamic Network Token, we have conducted research that indicates that the token with
+                its burning and minting implemented, is less volatile than a token that does not have this functionality
+                implemented. This will in theory lead to a more stable growth, making the Dynamic Network Token a safer
+                investment.
+            </p>
             <a href ="#">Read More</a>
         </div>
-            <div id="DoughnutChart" className="DoughnutChart">
-            <DoughnutChart
-        data={this.state.feeds[1].data}
-        title={this.state.feeds[1].title}
-        colors={[ '#2EF5FF',
-            '#16ACDE',
-            '#2596F5',
-            '#1D62E0',
-            '#2B4BFF']}
-        />
-        <br/>
-        <button id="saveChart" className="saveChart" onClick={saveAsDoughnut}>Download Distribution</button>
-        </div>
+
+
          </div>
+
+         <ParticleBackground/>
+
          </body>
         </section>
         )

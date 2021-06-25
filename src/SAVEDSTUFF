@@ -1,0 +1,28 @@
+         <div id="DoughnutChart" className="DoughnutChart">
+            <DoughnutChart
+        data={this.state.feeds[1].data}
+        title={this.state.feeds[1].title}
+        colors={[ '#2EF5FF',
+            '#16ACDE',
+            '#2596F5',
+            '#1D62E0',
+            '#2B4BFF']}
+        />
+        <br/>
+        <button id="saveChart" className="saveChart" onClick={saveAsDoughnut}>Download Distribution</button>
+        </div>
+
+
+
+          <VideoBg autoPlay loop muted src={video1} type='video/mp4'/>
+
+
+
+                <HeroHeader>
+                          <div className="HeroHeader" id="HeroHeader">
+                              <h1 className="gradient-text">Dynamic Network Token<br/></h1>
+                          </div>
+                          <h2 className="gradient-text">Reducing Volatility</h2>
+                          <h2 className="gradient-text">While Providing a Linear and Stable Growth.</h2>
+
+                      </HeroHeader>

@@ -1,0 +1,33 @@
+.saveChart {
+    background-color: #163968;
+    color: #61dafb;
+    font-size: large;
+    border-radius: 800px;
+}
+
+
+.TokenInfo {
+
+    color: #61dafb;
+    width: 400px;
+    padding-top: 450px;
+    padding-left: 200px;
+    position: absolute;
+    top: 500px;
+    left: 0;
+    right: 500px;
+    bottom: 0;
+}
+
+.DoughnutChart {
+    width: 500px;
+    height: 500px;
+    padding-top: 400px;
+    padding-bottom: 800px;
+    padding-left: 1500px;
+    position: absolute;
+    top: 500px;
+    left: 0;
+    right: 500px;
+    bottom: 0;
+}

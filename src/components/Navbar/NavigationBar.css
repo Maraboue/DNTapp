@@ -1,15 +1,15 @@
 .NavigationBarItems{
-    background: linear-gradient(90deg, rgb(113, 206, 235) 0%, rgba(106, 139, 246, 96) 100%);
-    height: 65px;
+    background: black;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.6rem;
+    font-size: 2.2rem;
     width: 100%;
 }
 
 .NavigationBar-Logo{
-    color: #163968;
+    color: cyan;
     font-family: monospace;
     justify-self: start;
     margin-left: 20px;
@@ -33,14 +33,17 @@
 }
 
 .nav-links{
-    color: white;
+
+    color: cyan;
+    font-family: "Arial Rounded MT Bold";
+    font-size: 1em;
     text-decoration: none;
     pading: 0.5rem 1rem;
 }
 
 .nav-links:hover{
     background-color: #61dafb;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: all 0.4s ease-out;
 }
 
