@@ -1,18 +1,62 @@
 .AboutHeader {
-    padding-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 300px;
     font-size: 2.5em;
     color: #61dafb;
     width: 100%;
     alignment: center;
+    margin-top: 220px;
+    margin-bottom: 200px;
+}
+
+.AboutContainer{
+
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: transparent;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutItem{
+    position: relative;
+    margin-top: -400px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 30%;
+    padding-right: 20px;
+    margin-right: 10px;
+    background: rgba(255,255,255,0.1);
+    color: black;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    border-radius: 15px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.AboutItem h1{
+    margin-top: -175px;
+    padding-bottom: 20px;
+    font-family: "Segoe UI Emoji";
+    font-size: 2em;
+    font-weight: bold;
+    color: #476098;
+}
+
+.AboutItem p {
+    padding-bottom: 25px;
 
 }
 
 .AboutInfo {
 
-    height: 800px;
     padding-right: 35px;
     padding-left: 35px;
-    padding-bottom: 300px;
+    padding-bottom: 200px;
     color: #61dafb;
     position:absolute;
     margin: 50px 50px 50px 50px;
@@ -23,6 +67,7 @@
     border-top: 1px solid rgba(255,255,255,0.5);
     border-left: 1px solid rgba(255,255,255,0.5);
     backdrop-filter: blur(5px);
+
 }
 .AboutInfo h1 {
     padding-top: 10px;
@@ -32,15 +77,10 @@
 .AboutInfo p {
     font-size: 1.2em;
     padding-top: 0px;
+    padding-bottom: 20px;
 }
 
 
-.aboutCircle {
-    padding-top: 30px;
-    padding-bottom: 60px;
-    width: 100%;
-    height: 20%;
-    background: linear-gradient(#163968,#61dafb,#f0f);
-    clip-path: circle(15% at right 40%);
-    position: relative;
+.AboutItem:hover{
+    background: linear-gradient(transparent,#e6f3ff,  #476098)
 }

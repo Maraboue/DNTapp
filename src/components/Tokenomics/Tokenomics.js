@@ -1,80 +1,10 @@
 import React, {Component}  from 'react'
-import ParticleBackground from "../ParticleBackground";
+import ParticleBackground from "../Misc/ParticleBackground";
 import DoughnutChart from "./DoughnutChart";
 import './Tokenomics.css'
-
-
-function saveAsDoughnut(){
-
-    const doughnutChart = new DoughnutChart()
-    doughnutChart.saveDoughnutCanvas();
-}
-
-
-function getRandomArray(numItems) {
-
-    // Mock-data för test..
-    let names = ['Team','ICO','Reserve','X'];
-    let data = [];
-    for(var i = 0; i < numItems; i++) {
-        data.push({
-            label: names[i],
-            value: Math.round(20 + 80 * Math.random())
-        });
-    }
-    return data;
-}
-
-function getFeeds() {
-    let feeds = [];
-
-    feeds.push({
-        title: 'Token Distribution',
-        data: getRandomArray(4)
-    });
-
-    feeds.push({
-        title: 'Token Distribution',
-        data: getRandomArray(4)
-    });
-
-    feeds.push({
-        title: 'Token Distribution',
-        data: getRandomArray(4)
-    });
-
-    return feeds;
-}
-
-function getData() {
-    let data = [];
-    data.push({
-        title: 'Token Distribution',
-        data: getRandomArray(4)
-    });
-
-    return data;
-}
+import PieChart from "./PieChart";
 
 class Tokenomics extends Component {
-
-
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            feeds: getFeeds()
-        };
-    }
-
-    componentDidMount() {
-        window.setInterval(() => {
-            this.setState({
-                data: getData()
-            })
-        }, 5000);
-
-    }
 
 
     render () {
@@ -88,17 +18,16 @@ class Tokenomics extends Component {
                  <h1 className="gradient-text">Tokenomics</h1>
              </div>
 
-
-
         <div id="TokenInfo" className="TokenInfo">
+
             <h1>Why Dynamic Network Token?</h1>
             <br/>
             <h2>Burning & Minting</h2>
             <p>
                 In accordance with the quantitative theory of money, we have implemented
                 burning and minting for each transaction. This makes it possible to control
-                the volatility in a better way, making the Dynamic Network Token less volatile. The ratio
-                implemented for the burning and minting is close to 2:1 in favor for the burning, thus creating
+                the volatility in a better way, thus making the Dynamic Network Token less volatile. The ratio
+                implemented for the burning and minting is close to 2:1 in favor for the burning, which creates
                 a more deflationary token.
             </p>
             <a href ="#">Read More</a>
@@ -117,11 +46,10 @@ class Tokenomics extends Component {
             </p>
             <a href ="#">Read More</a>
         </div>
-
-
+            <div className="PieChart" id="PieChart">
+            <PieChart/>
+            </div>
          </div>
-
-         <ParticleBackground/>
 
          </body>
         </section>

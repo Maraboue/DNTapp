@@ -2,9 +2,8 @@ import styled from 'styled-components';
 
 export const Box = styled.div`
   padding: 80px 60px;
-  background: black;
+  background: #303030;
   bottom: 0;
-  width: 90%;
   
    
   @media (max-width: 1000px) {
@@ -20,6 +19,7 @@ export const Container = styled.div`
     margin: 0 auto;
     background: transparent; */
     border-radius: 50px;
+    padding-top: 10px;
 `
 
 export const Column = styled.div`
@@ -42,11 +42,11 @@ export const Row = styled.div`
 `;
 
 export const FooterLink = styled.a`
-  color: #fff;
+  color: #008fb3;
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 1.5em;
   text-decoration: none;
-   
+  font-family: arial;
   &:hover {
       color: cyan;
       transition: 200ms ease-in;
@@ -55,7 +55,7 @@ export const FooterLink = styled.a`
 
 export const Heading = styled.p`
   font-size: 24px;
-  color: #fff;
+  color: #008fb3;
   margin-bottom: 40px;
   font-weight: bold;
 `;

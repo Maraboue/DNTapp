@@ -2,9 +2,9 @@ import bg from "../../pictures/bg.jpg";
 import moon from "../../pictures/moon.png";
 import mountain from "../../pictures/mountain.png";
 import road from "../../pictures/road.png";
-
 import './Header.css'
 import React, {useState, useEffect, Component} from "react";
+
 
 function Header() {
 
@@ -24,8 +24,6 @@ let road1 = document.getElementById("road");
     }, []);
 
 
-
-
         return (
 
             <section className="Parallax">
@@ -36,10 +34,14 @@ let road1 = document.getElementById("road");
                 <img src={mountain} id="mountain" style={{ transform: `translateY(${offsetY * 0.5}px)` }}/>
                 <img src={road} id="road"style={{ transform: `translateY(${offsetY * 0.5}px)` }} />
                 <h2 id="text" className="gradient-text"> Dynamic Network Token.</h2>
+                <h4 id="text1" className="gradient-text"> Reducing Volatility</h4>
+                <h4 id="text2" className="gradient-text"> While Providing a Linear and Stable Growth.</h4>
+
             </div>
 
             </section>
         )
+
 
 }
 export default Header;

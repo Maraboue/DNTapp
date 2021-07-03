@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ParticleBackground from "../ParticleBackground";
+import ParticleBackground from "../Misc/ParticleBackground";
 import './TokenInfo.css'
 
 import graph from '../../pictures/blueatm.jpg'

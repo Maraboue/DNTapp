@@ -46,10 +46,12 @@ export const HeroBg = styled.div`
 `
 
 export const VideoBg = styled.video`
+   border-radius: 20px;
+   margin-left: 0px;
    width: 100%;
-   height: 75%;
+   height: 100%;
    -o-object-fit: cover;
    object-fit: cover;
    background: #232a34;  
-   
+
 `

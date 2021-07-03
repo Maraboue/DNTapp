@@ -11,14 +11,14 @@ import {
 const Footer = () => {
     return (
         <Box>
-            <h1 style={{ color: "cyan",
+            <h1 style={{ color: "#008fb3",
                 textAlign: "center",
                 marginTop: "-50px" }}>
                 Dynamic Network Token.
             </h1>
-            <h2 style={{ color: "cyan",
+            <h2 style={{ color: "#008fb3",
                 textAlign: "center",
-                marginTop: "50px" }}>Copyright: 2021 The Dynamic Network Project. All Rights Reserved ©</h2>
+                marginTop: "50px", marginBottom: "50px"}}>Copyright: The Dynamic Network Project. All Rights Reserved ©</h2>
             <Container>
                 <Row>
                     <Column>
@@ -37,6 +37,7 @@ const Footer = () => {
                     <Column>
                         <Heading>Contact Us</Heading>
                         <FooterLink href="#">Gustaf</FooterLink>
+                        <FooterLink href="#">Kajsa</FooterLink>
                         <FooterLink href="#">Carl-Bernhard</FooterLink>
                         <FooterLink href="#">Philip</FooterLink>
                     </Column>

@@ -1,7 +1,7 @@
 import React, {Component, useEffect,useRef} from 'react';
 import VanillaTilt from 'vanilla-tilt';
 import './Card.css'
-import ParticleBackground from "../ParticleBackground";
+import ParticleBackground from "../Misc/ParticleBackground";
 import graph from "../../pictures/IMG_3699.PNG";
 
 function Tilt(props) {
@@ -24,7 +24,6 @@ class Cards extends React.Component {
                 <div id="teamHeader" className="teamHeader">
                     <h1 className="gradient-text">Dynamic Network Team</h1>
                 </div>
-
                 <div id="cardContainer" className="cardContainer">
 
                     <div id="TeamInfo" className="TeamInfo">
@@ -50,6 +49,17 @@ class Cards extends React.Component {
                         <a href ="#">Read More</a>
                     </Tilt>
                     <Tilt div id="card" className="card">
+                        <h2>Marketing & Design</h2>
+                        <h3>Kajsa Gyllhamn</h3>
+
+                        <img src={graph} alt="loading..." />
+
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.<br/>
+                        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+                        making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
+                        <a href ="#">Read More</a>
+                    </Tilt>
+                    <Tilt div id="card" className="card">
                         <h2>Dev & Advisor</h2>
                         <h3>Carl-Bernhard Hallberg</h3>
                         <img src={graph} alt="loading..." />
@@ -70,7 +80,9 @@ class Cards extends React.Component {
                     </Tilt>
 
                 </div>
+
                 </body>
+
             </section>
         )
     }

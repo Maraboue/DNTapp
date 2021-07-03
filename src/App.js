@@ -10,14 +10,18 @@ import RoadMap from "./components/RoadMap/RoadMap";
 import Footer from "./components/Footer/Footer";
 import DoughnutChart from "./components/Tokenomics/DoughnutChart";
 import Header from "./components/Header/Header";
+import Login from "./components/Login/login";
 
 
 
 
     class App extends React.Component {
 
+
+
         render() {
             return (
+
                 <section className="DNT" id="DNT">
                     <div className="App">
                         <div className="dynamic-network-site">
@@ -30,7 +34,7 @@ import Header from "./components/Header/Header";
                             <Header/>
                         </div>
                             <div id="HeroSection" className="HeroSection">
-                                    <HeroSection/>
+                                <Login/>
                             </div>
 
                             <div id="Tokenomics-info" className="Tokenomics-info">

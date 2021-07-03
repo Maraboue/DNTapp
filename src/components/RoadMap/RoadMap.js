@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ParticleBackground from "../ParticleBackground";
+import ParticleBackground from "../Misc/ParticleBackground";
 import './RoadMap.css'
 
 
@@ -50,7 +50,7 @@ class RoadMap extends Component {
                             <h1>Q4 2021</h1>
                             <h2>Partnerships</h2>
                             <p>
-                                Establish new  partnerships.
+                                Establish new <br/> partnerships & colaborations.
                             </p>
                         </div>
                     </div>
@@ -64,11 +64,12 @@ class RoadMap extends Component {
                             <h1>Q1 2022</h1>
                             <h2>Response from community</h2>
                             <p>
-                                Listen to community for requests for improvements.
+                                Listen to community <br/> for requests for improvements.
                             </p>
                         </div>
                     </div>
                 </div>
+
                 </body>
             </section>
         )
