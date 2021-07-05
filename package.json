@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@openzeppelin/contracts": "^2.5.1",
+    "@popperjs/core": "^2.9.2",
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
@@ -15,6 +16,7 @@
     "html2canvas": "^1.0.0-rc.7",
     "mdbreact": "^5.0.2",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.6.1",
     "react-chartjs-2": "^2.11.1",
     "react-dom": "^17.0.2",
     "react-gradient-text": "^0.1.0",
